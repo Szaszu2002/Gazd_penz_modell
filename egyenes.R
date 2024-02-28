@@ -1,4 +1,7 @@
-xy=function(x,y){
+#x=rnorm(100)
+#y=rnorm(100)
+
+linreg=function(x,y){
 n=length(x)
 a1=0
 b1=0
@@ -14,7 +17,7 @@ for (i in 1:n){
 	c2=c2+x[i]
 }
 a=(a1*n-c1*b1)/(a2*n-c2*b1)
-b=(c2*c1-c2*a1)/(a2*n-c2*b1)
+b=(a2*c1-c2*a1)/(a2*n-c2*b1)
 print(a)
 print(b)
 }
