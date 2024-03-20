@@ -1,0 +1,6 @@
+
+
+
+fuggetlenseg_vizsgalat=function(){
+
+}
