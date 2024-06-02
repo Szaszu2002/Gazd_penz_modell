@@ -1,0 +1,10 @@
+feladat_1=function(ss,ax,ay){
+  set.seed(ss)
+  nx=600
+  v=matrix(c(ax,abs(ax-ay),abs(ax-ay),ay),2)
+  w=chol(v)
+  z1=-log(runif(nx))
+  z2=-log(runif(nx))
+  zm=matrix(c(z1,z2),ncol=2)
+  zn=zm%*%w
+}

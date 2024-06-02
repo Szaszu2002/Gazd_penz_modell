@@ -1,0 +1,7 @@
+ax= 114 
+ay= 54 
+az= 53 
+av= 117 
+ss= 572 
+ev= 2020 
+reszveny= AMZN
